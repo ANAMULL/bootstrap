@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background:black;
+    border:1px solid rgb(68, 2, 2);
+  
+    
+    
+    
+}
+.navbar a{
+    color:#ffff;
+    margin:10px;
+
+}
+/*slider*/
+
+#blar{
+    
+    background: rgba(0, 0, 0, 0.849);
+    height: 450px;
+  
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background-image: url("image/img1.jpg");
+    background-size: cover;
+}
+.carousel-img-2{
+    background-image: url("image/img2.jpg");
+    background-size: cover;
+}
+.carousel-img-3{
+    background-image: url("image/img3.jpg");
+    background-size: cover;
+}
+.text3 p{
+    color:#ffff;
+}
+
+/*slider end*/
+.icon{
+    background:#FEFEFE;
+    width: 100%;
+    max-height: 400px;
+}
+
+.icon .row p ,h3{
+    text-align: center;
+   margin-top:30px;
+   
+}
+
+.pc{
+    height: 200px;
+    background-image: url("image/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text > p,h1  {
+    color:white;
+    text-align: center;
+}
+#getstart{
+    
+    opacity:.6;
+}
+.text-2 h3,p{
+    color:rgb(0,0,0,.7);
+    text-align: center;
+    
+}
+#section{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+ .imge img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+}
+
+#section-2{
+    
+    height: 200px;
+    background-image: url("image/you.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.logo_align{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding:30px;
+   margin-top: 40px;
+   box-sizing: border-box;
+
+}
+.logo_align,h2{
+    color:white;
+    
+    
+    
+}
+.gal img{
+    margin:20px;
+}
+.gal img:hover{
+    transition:1s; 
+    transform:scale(1.2); 
+    opacity:0.7;
+
+}
+.galary{
+    background-color: rgba(219, 179, 179, 0.19);
+   
+}
+.gal-text h2,small{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.2)
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background: #31373C;
+}
+.footer .text-caption-1 h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.footer .text-caption-1 p{
+    font-size: 15px;
+    margin-top: 20px;
+    color:#ffff;
+}
+
+
